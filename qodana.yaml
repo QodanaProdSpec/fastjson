@@ -1,5 +1,4 @@
 version: 1.0
 linter: jetbrains/qodana-jvm:latest
 bootstrap: |
-  mkdir -p /data/coverage
-  mv target/site/jacoco/jacoco.xml /data/coverage
+  mv target/site/jacoco/jacoco.xml .qodana/code-coverage
