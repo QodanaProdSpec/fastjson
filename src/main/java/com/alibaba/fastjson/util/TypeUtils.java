@@ -345,7 +345,7 @@ public class TypeUtils {
             return null;
         }
 
-        if (value instanceof Float) {
+        if (value instanceof Float)
             Float floatValue = (Float) value;
             if (Float.isNaN(floatValue) || Float.isInfinite(floatValue)) {
                 return null;
